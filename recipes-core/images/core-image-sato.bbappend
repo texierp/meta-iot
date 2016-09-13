@@ -1,0 +1,1 @@
+inherit iot-base-image

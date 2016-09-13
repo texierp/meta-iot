@@ -1,0 +1,13 @@
+Common targets are:
+    iot-base-image
+    iot-qt-image
+    meta-toolchain-qt5
+
+You can also run generated qemu images with a command like 'runqemu qemuarm'
+
+ ___ ___ _____ 
+|_ _/ _ \_   _|
+ | | | | || |  
+ | | |_| || |  
+|___\___/ |_|  
+
