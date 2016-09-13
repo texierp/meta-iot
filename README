@@ -24,10 +24,12 @@ This layer depends on:
 Patches
 =======
 
-Please submit any patches against the iot layer to the
-xxxx mailing list (xxxx@zzzz.org) and cc: the maintainer:
+Please submit any patches against the iot layer to the maintainer:
 
-Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
+Maintainer: 
+
+	- Pierre-Jean TEXIER <texier.pj2@gmail.com>
+	- Jean CHABRERIE <jchabrerie@gmail.com>
 
 
 Table of Contents
