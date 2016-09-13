@@ -4,7 +4,7 @@ LICENSE = "MIT"
 inherit iot-base-image
 
 IMAGE_INSTALL += "\
-	packagegroup-qt5
+	packagegroup-qt5 \
 	qt-simple-application \
 "
 
