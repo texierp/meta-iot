@@ -21,6 +21,11 @@ IMAGE_FEATURES += "splash"
 CORE_OS_INSTALL = " \
     	dbus \
     	sysfsutils \
+    	neard \
+    	kernel-devicetree \
+    	kernel-image \
+    	kernel-modules \
+    	firmware-imx-brcm \
 "
 
 IMAGE_INSTALL += " \
