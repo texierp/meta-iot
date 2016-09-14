@@ -29,6 +29,7 @@ IMAGE_INSTALL += " \
 	packagegroup-distro-base \
 	packagegroup-machine-base \
 	packagegroup-iot-base \
+	packagegroup-tools-wifi-hotspot \
 	packagegroup-tools-io \
     	${CORE_IMAGE_EXTRA_INSTALL} \
 "
