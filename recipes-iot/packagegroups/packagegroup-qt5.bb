@@ -14,5 +14,6 @@ RDEPENDS_${PN} = " \
 	qtdeclarative-tools \
 	qtscript \
 	qtserialport \
+	qtconnectivity \
 "
 
