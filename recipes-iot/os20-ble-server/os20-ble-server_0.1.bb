@@ -1,9 +1,9 @@
-SUMMARY = "Qt Heart Rate Server"
+SUMMARY = "Qt BLE Server : Open Silicium n°20 demo"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384361b4de20420"
 
 SRC_URI = " \
-	file://heart-rate-server.pro \
+	file://ServerBluetooth.pro \
 	file://main.cpp \
 "
 

@@ -18,6 +18,11 @@ IMAGE_FEATURES += "ssh-server-dropbear"
 # To Include splash at boot-up
 IMAGE_FEATURES += "splash"
 
+ALSA_INSTALL = " \
+    	alsa-utils \
+    	alsa-tools \
+"
+
 CORE_OS_INSTALL = " \
     	dbus \
     	sysfsutils \
@@ -33,8 +38,8 @@ IMAGE_INSTALL += " \
 	openssh-sftp-server \
 	packagegroup-distro-base \
 	packagegroup-machine-base \
+	${ALSA_INSTALL} \
 	packagegroup-iot-base \
-	packagegroup-tools-wifi-hotspot \
 	packagegroup-tools-io \
     	${CORE_IMAGE_EXTRA_INSTALL} \
 "

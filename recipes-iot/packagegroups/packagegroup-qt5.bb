@@ -15,5 +15,6 @@ RDEPENDS_${PN} = " \
 	qtscript \
 	qtserialport \
 	qtconnectivity \
+	os20-ble-server \
 "
 
