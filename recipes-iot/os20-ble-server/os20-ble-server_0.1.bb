@@ -3,14 +3,12 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384361b4de20420"
 
 SRC_URI = " \
-	file://ServerBluetooth.pro \
-	file://main.cpp \
+	git://github.com/texierp/os20-ble-server;protocol=git \
 	file://init-ble-server.init \
 "
 
-S = "${WORKDIR}"
-
-PR = "r0"
+SRCREV = "${AUTOREV}"
+S = "${WORKDIR}/git"
 
 DEPENDS = " qtbase qtconnectivity"
 
